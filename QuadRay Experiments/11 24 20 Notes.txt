@@ -1,0 +1,29 @@
+..OBSERVATIONS TAKE FROM QUADRAY CODE:
+rt_si32     n_simd      = 0;        /* SIMD-native-size (from command-line) */
+rt_si32     k_size      = 0;        /* SIMD-size-factor (from command-line) */
+rt_si32     s_type      = 0;        /* SIMD-sub-variant (from command-line) */
+
+F6 changes k_size
+F7 changes s_size
+F8 changes n_simd
+F2 changes Anti-Aliasing level
+F11 changes the scene
+
+F6 corresponds to the middle of 256 (x2) v2 - k-size
+F7 corresponds to the end of 256 x2 (v2) - SIMD-sub-variant
+F8 corresponds to the beginning of (256) x2 v2 - SIMD-native-size
+
+In Windows x64 - AMD Ryzen 7 2700 Zen+:
+-There are two modes of k_size - (x1) and (x2)
+-There are three modes of s_type - (v1) and (v2) when using 256, (v4) when using 128
+-There are two modes of n_simd - (128) and (256)
+-There are three levels of Anti-Aliasing
+-There are three scenes.
+
+Each of these configurations uniquely affect the average FPS performance of the program.
+
+Configuration of the experiment:
+Run each possible n_simd, k_size, s_type, AA and scene for 10 seconds, and then observe the Average FPS results.
+Video and tabulate the results.
+
+Repeat for each machine/architecture considered.

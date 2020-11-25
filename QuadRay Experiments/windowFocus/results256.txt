@@ -1,0 +1,1327 @@
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 53.54
+FPS = 38.80
+FPS = 47.24
+FPS = 50.00
+FPS = 48.87
+FPS = 39.76
+FPS = 43.82
+FPS = 55.34
+FPS = 35.64
+FPS = 59.52
+FPS = 43.56
+FPS = 41.67
+FPS = 55.56
+FPS = 42.35
+FPS = 42.80
+FPS = 53.36
+FPS = 55.34
+FPS = 43.91
+FPS = 55.45
+FPS = 41.92
+FPS = 47.52
+FPS = 43.05
+FPS = 58.94
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 47.95
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 34.00
+FPS = 32.76
+FPS = 32.82
+FPS = 31.07
+FPS = 25.79
+FPS = 32.20
+FPS = 27.72
+FPS = 23.37
+FPS = 33.86
+FPS = 22.91
+FPS = 23.86
+FPS = 29.91
+FPS = 31.50
+FPS = 26.97
+FPS = 33.40
+FPS = 21.96
+FPS = 27.59
+FPS = 25.59
+FPS = 33.80
+FPS = 31.68
+FPS = 28.79
+FPS = 32.57
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 29.19
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 17.51
+FPS = 17.89
+FPS = 17.48
+FPS = 15.53
+FPS = 14.55
+FPS = 14.47
+FPS = 14.63
+FPS = 9.47
+FPS = 15.78
+FPS = 14.65
+FPS = 13.89
+FPS = 17.34
+FPS = 15.84
+FPS = 16.85
+FPS = 9.73
+FPS = 13.57
+FPS = 15.24
+FPS = 11.07
+FPS = 9.52
+FPS = 15.90
+FPS = 17.61
+FPS = 11.40
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 14.50
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 43.65
+FPS = 43.91
+FPS = 51.53
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 46.54
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 54.79
+FPS = 49.70
+FPS = 51.49
+FPS = 57.09
+FPS = 53.89
+FPS = 45.36
+FPS = 49.12
+FPS = 34.03
+FPS = 26.92
+FPS = 35.79
+FPS = 50.29
+FPS = 45.54
+FPS = 52.93
+FPS = 55.34
+FPS = 58.03
+FPS = 49.43
+FPS = 31.68
+FPS = 55.56
+FPS = 43.22
+FPS = 42.47
+FPS = 46.00
+FPS = 33.73
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 46.34
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 32.57
+FPS = 33.46
+FPS = 28.78
+FPS = 28.57
+FPS = 25.84
+FPS = 25.93
+FPS = 23.48
+FPS = 25.59
+FPS = 23.44
+FPS = 32.57
+FPS = 33.14
+FPS = 31.43
+FPS = 28.14
+FPS = 22.00
+FPS = 30.30
+FPS = 24.07
+FPS = 24.00
+FPS = 29.53
+FPS = 27.03
+FPS = 25.84
+FPS = 25.34
+FPS = 28.96
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 27.81
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 16.64
+FPS = 16.95
+FPS = 16.22
+FPS = 9.47
+FPS = 17.75
+FPS = 18.28
+FPS = 17.79
+FPS = 16.19
+FPS = 16.57
+FPS = 17.34
+FPS = 12.89
+FPS = 17.27
+FPS = 11.61
+FPS = 14.49
+FPS = 18.21
+FPS = 12.42
+FPS = 13.59
+FPS = 17.96
+FPS = 16.76
+FPS = 13.31
+FPS = 16.00
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 15.45
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 53.13
+FPS = 56.97
+FPS = 58.00
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 55.88
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 60.31
+FPS = 52.53
+FPS = 52.02
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 54.81
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 51.79
+FPS = 53.68
+FPS = 45.54
+FPS = 38.31
+FPS = 36.75
+FPS = 41.02
+FPS = 54.58
+FPS = 27.89
+FPS = 34.75
+FPS = 51.49
+FPS = 50.78
+FPS = 41.34
+FPS = 46.97
+FPS = 39.45
+FPS = 42.07
+FPS = 44.49
+FPS = 53.47
+FPS = 41.50
+FPS = 51.49
+FPS = 52.63
+FPS = 45.73
+FPS = 50.19
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 44.74
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 27.94
+FPS = 26.47
+FPS = 27.13
+FPS = 24.25
+FPS = 16.30
+FPS = 21.61
+FPS = 28.46
+FPS = 25.15
+FPS = 15.94
+FPS = 27.45
+FPS = 24.95
+FPS = 23.17
+FPS = 20.95
+FPS = 20.64
+FPS = 26.27
+FPS = 27.18
+FPS = 20.33
+FPS = 26.57
+FPS = 28.74
+FPS = 23.12
+FPS = 27.56
+FPS = 21.24
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 24.08
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 13.62
+FPS = 14.57
+FPS = 13.92
+FPS = 11.93
+FPS = 14.98
+FPS = 12.99
+FPS = 11.93
+FPS = 13.06
+FPS = 14.84
+FPS = 8.70
+FPS = 13.83
+FPS = 14.71
+FPS = 15.12
+FPS = 14.60
+FPS = 12.70
+FPS = 14.95
+FPS = 12.96
+FPS = 14.87
+FPS = 10.71
+FPS = 11.09
+FPS = 14.81
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 13.24
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 51.18
+FPS = 50.68
+FPS = 47.43
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 49.45
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 45.54
+FPS = 51.08
+FPS = 44.32
+FPS = 33.53
+FPS = 40.62
+FPS = 50.88
+FPS = 51.49
+FPS = 52.73
+FPS = 41.83
+FPS = 51.79
+FPS = 48.26
+FPS = 39.76
+FPS = 48.00
+FPS = 40.62
+FPS = 35.02
+FPS = 53.57
+FPS = 27.67
+FPS = 51.69
+FPS = 40.38
+FPS = 43.82
+FPS = 38.68
+FPS = 50.98
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 44.16
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 26.27
+FPS = 24.81
+FPS = 27.13
+FPS = 27.34
+FPS = 27.40
+FPS = 25.34
+FPS = 27.83
+FPS = 28.52
+FPS = 21.07
+FPS = 23.62
+FPS = 21.53
+FPS = 21.78
+FPS = 29.24
+FPS = 18.32
+FPS = 26.92
+FPS = 22.90
+FPS = 25.05
+FPS = 21.87
+FPS = 23.53
+FPS = 21.70
+FPS = 22.57
+FPS = 23.03
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 24.41
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 15.87
+FPS = 14.01
+FPS = 14.29
+FPS = 10.99
+FPS = 10.91
+FPS = 11.05
+FPS = 12.82
+FPS = 11.61
+FPS = 11.43
+FPS = 15.78
+FPS = 8.91
+FPS = 11.90
+FPS = 13.36
+FPS = 14.21
+FPS = 11.93
+FPS = 11.55
+FPS = 15.50
+FPS = 11.02
+FPS = 14.68
+FPS = 12.50
+FPS = 14.47
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 12.77
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 46.51
+FPS = 49.80
+FPS = 49.50
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 48.25
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 50.29
+FPS = 54.00
+FPS = 47.43
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 50.56
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000046A50080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 3, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 51.90
+FPS = 55.12
+FPS = 46.33
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 51.00
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 185.26
+FPS = 206.00
+FPS = 224.00
+FPS = 137.45
+FPS = 125.74
+FPS = 191.62
+FPS = 143.12
+FPS = 196.82
+FPS = 139.44
+FPS = 201.60
+FPS = 196.00
+FPS = 191.62
+FPS = 206.00
+FPS = 155.38
+FPS = 150.50
+FPS = 202.00
+FPS = 156.75
+FPS = 152.26
+FPS = 166.67
+FPS = 116.19
+FPS = 133.20
+FPS = 194.00
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 169.45
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 101.80
+FPS = 116.73
+FPS = 106.00
+FPS = 84.00
+FPS = 83.83
+FPS = 117.76
+FPS = 121.76
+FPS = 115.08
+FPS = 103.59
+FPS = 101.39
+FPS = 120.79
+FPS = 124.26
+FPS = 99.60
+FPS = 83.96
+FPS = 121.51
+FPS = 85.83
+FPS = 87.30
+FPS = 91.98
+FPS = 94.00
+FPS = 122.61
+FPS = 99.82
+FPS = 103.52
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 103.07
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 67.06
+FPS = 66.15
+FPS = 67.44
+FPS = 66.54
+FPS = 56.75
+FPS = 59.41
+FPS = 68.49
+FPS = 66.02
+FPS = 67.19
+FPS = 46.00
+FPS = 59.64
+FPS = 55.34
+FPS = 52.33
+FPS = 44.83
+FPS = 47.43
+FPS = 51.08
+FPS = 67.06
+FPS = 63.83
+FPS = 43.82
+FPS = 49.50
+FPS = 71.01
+FPS = 52.84
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 58.21
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 213.15
+FPS = 207.17
+FPS = 221.12
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 212.44
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 205.94
+FPS = 211.58
+FPS = 200.80
+FPS = 109.78
+FPS = 211.58
+FPS = 166.00
+FPS = 161.03
+FPS = 158.42
+FPS = 100.00
+FPS = 151.09
+FPS = 199.20
+FPS = 207.17
+FPS = 127.74
+FPS = 183.27
+FPS = 138.00
+FPS = 162.30
+FPS = 131.53
+FPS = 169.66
+FPS = 192.84
+FPS = 186.88
+FPS = 182.00
+FPS = 136.90
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 168.80
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 113.46
+FPS = 102.97
+FPS = 98.79
+FPS = 72.00
+FPS = 108.70
+FPS = 67.33
+FPS = 93.07
+FPS = 99.21
+FPS = 107.78
+FPS = 90.91
+FPS = 121.03
+FPS = 97.22
+FPS = 94.86
+FPS = 73.12
+FPS = 115.31
+FPS = 111.55
+FPS = 128.71
+FPS = 94.86
+FPS = 127.74
+FPS = 111.11
+FPS = 115.08
+FPS = 65.35
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 100.56
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 60.67
+FPS = 66.00
+FPS = 58.71
+FPS = 41.34
+FPS = 42.88
+FPS = 67.33
+FPS = 50.51
+FPS = 67.59
+FPS = 40.86
+FPS = 57.54
+FPS = 27.62
+FPS = 65.87
+FPS = 52.33
+FPS = 59.39
+FPS = 63.12
+FPS = 63.95
+FPS = 61.51
+FPS = 52.73
+FPS = 47.62
+FPS = 65.74
+FPS = 44.15
+FPS = 33.01
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 53.56
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 188.87
+FPS = 161.68
+FPS = 218.69
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 188.72
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 206.35
+FPS = 196.82
+FPS = 200.00
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 198.97
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 213.15
+FPS = 187.38
+FPS = 166.67
+FPS = 166.67
+FPS = 147.12
+FPS = 178.57
+FPS = 191.62
+FPS = 195.61
+FPS = 154.00
+FPS = 145.49
+FPS = 175.54
+FPS = 134.36
+FPS = 162.21
+FPS = 130.95
+FPS = 116.10
+FPS = 133.47
+FPS = 158.73
+FPS = 130.95
+FPS = 133.73
+FPS = 183.27
+FPS = 141.43
+FPS = 175.44
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 157.10
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 100.00
+FPS = 115.77
+FPS = 114.00
+FPS = 108.00
+FPS = 89.46
+FPS = 107.78
+FPS = 112.87
+FPS = 87.72
+FPS = 107.63
+FPS = 77.52
+FPS = 88.93
+FPS = 103.72
+FPS = 65.48
+FPS = 68.09
+FPS = 98.23
+FPS = 82.78
+FPS = 107.78
+FPS = 81.35
+FPS = 85.83
+FPS = 65.14
+FPS = 110.45
+FPS = 103.59
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 94.76
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 55.56
+FPS = 56.31
+FPS = 57.88
+FPS = 54.90
+FPS = 45.91
+FPS = 55.23
+FPS = 34.75
+FPS = 34.75
+FPS = 39.45
+FPS = 31.62
+FPS = 41.67
+FPS = 50.78
+FPS = 56.42
+FPS = 47.90
+FPS = 47.52
+FPS = 53.57
+FPS = 45.10
+FPS = 49.50
+FPS = 58.71
+FPS = 52.84
+FPS = 48.54
+FPS = 59.76
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 49.35
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 184.52
+FPS = 188.12
+FPS = 195.61
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 188.14
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 185.26
+FPS = 183.27
+FPS = 184.52
+FPS = 89.46
+FPS = 119.28
+FPS = 147.70
+FPS = 172.96
+FPS = 150.79
+FPS = 186.51
+FPS = 99.80
+FPS = 136.28
+FPS = 137.18
+FPS = 174.60
+FPS = 170.25
+FPS = 149.70
+FPS = 176.59
+FPS = 163.02
+FPS = 160.71
+FPS = 125.75
+FPS = 133.47
+FPS = 176.94
+FPS = 142.00
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 151.98
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 100.99
+FPS = 84.65
+FPS = 107.78
+FPS = 103.59
+FPS = 77.82
+FPS = 72.98
+FPS = 75.85
+FPS = 109.78
+FPS = 69.72
+FPS = 99.60
+FPS = 84.48
+FPS = 106.93
+FPS = 115.31
+FPS = 107.36
+FPS = 110.67
+FPS = 81.51
+FPS = 83.17
+FPS = 91.27
+FPS = 83.50
+FPS = 73.27
+FPS = 95.43
+FPS = 61.75
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 90.19
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 55.45
+FPS = 54.79
+FPS = 47.90
+FPS = 45.01
+FPS = 55.56
+FPS = 43.74
+FPS = 44.57
+FPS = 45.82
+FPS = 55.45
+FPS = 56.31
+FPS = 53.89
+FPS = 50.10
+FPS = 52.43
+FPS = 41.67
+FPS = 53.78
+FPS = 45.63
+FPS = 39.06
+FPS = 55.88
+FPS = 33.40
+FPS = 42.97
+FPS = 54.58
+FPS = 49.41
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 48.57
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 182.90
+FPS = 180.56
+FPS = 196.04
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 185.45
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 171.31
+FPS = 201.60
+FPS = 182.54
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 184.02
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000040020080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 1, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 219.12
+FPS = 205.18
+FPS = 216.27
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 211.51
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 59.06
+FPS = 60.78
+FPS = 59.64
+FPS = 46.51
+FPS = 45.63
+FPS = 49.70
+FPS = 37.35
+FPS = 44.92
+FPS = 49.41
+FPS = 54.26
+FPS = 43.82
+FPS = 60.19
+FPS = 46.78
+FPS = 44.15
+FPS = 40.78
+FPS = 61.75
+FPS = 63.49
+FPS = 57.69
+FPS = 57.69
+FPS = 54.05
+FPS = 63.49
+FPS = 45.60
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 52.08
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 33.77
+FPS = 33.20
+FPS = 30.48
+FPS = 28.79
+FPS = 21.90
+FPS = 35.86
+FPS = 30.02
+FPS = 29.01
+FPS = 33.07
+FPS = 28.68
+FPS = 31.07
+FPS = 19.19
+FPS = 31.81
+FPS = 36.61
+FPS = 33.46
+FPS = 31.37
+FPS = 33.01
+FPS = 35.43
+FPS = 31.31
+FPS = 27.24
+FPS = 25.59
+FPS = 27.94
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 30.13
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 19.38
+FPS = 16.89
+FPS = 17.34
+FPS = 17.89
+FPS = 16.23
+FPS = 19.16
+FPS = 15.96
+FPS = 15.59
+FPS = 11.58
+FPS = 18.80
+FPS = 19.23
+FPS = 16.64
+FPS = 19.12
+FPS = 19.12
+FPS = 18.69
+FPS = 17.92
+FPS = 15.15
+FPS = 16.16
+FPS = 15.53
+FPS = 18.83
+FPS = 11.65
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 16.85
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 61.26
+FPS = 62.87
+FPS = 53.05
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 58.86
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 60.78
+FPS = 54.69
+FPS = 53.80
+FPS = 45.63
+FPS = 62.99
+FPS = 56.42
+FPS = 51.90
+FPS = 60.31
+FPS = 55.98
+FPS = 51.79
+FPS = 46.90
+FPS = 58.00
+FPS = 47.62
+FPS = 47.15
+FPS = 60.67
+FPS = 32.91
+FPS = 45.98
+FPS = 59.41
+FPS = 57.65
+FPS = 42.97
+FPS = 54.69
+FPS = 46.78
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 52.51
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 31.75
+FPS = 31.87
+FPS = 34.48
+FPS = 31.60
+FPS = 34.55
+FPS = 33.90
+FPS = 35.16
+FPS = 28.36
+FPS = 27.08
+FPS = 32.82
+FPS = 23.26
+FPS = 28.25
+FPS = 22.26
+FPS = 25.74
+FPS = 34.48
+FPS = 33.46
+FPS = 24.86
+FPS = 33.27
+FPS = 26.00
+FPS = 31.81
+FPS = 19.16
+FPS = 30.65
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 29.72
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 19.23
+FPS = 18.73
+FPS = 18.38
+FPS = 15.66
+FPS = 18.52
+FPS = 15.33
+FPS = 19.12
+FPS = 12.13
+FPS = 17.75
+FPS = 15.44
+FPS = 11.70
+FPS = 19.12
+FPS = 16.95
+FPS = 14.84
+FPS = 19.05
+FPS = 15.09
+FPS = 15.66
+FPS = 12.59
+FPS = 19.46
+FPS = 18.05
+FPS = 17.95
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 16.67
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 63.12
+FPS = 62.00
+FPS = 57.77
+---------------------  FPS AVG  ------ simd =  256x2v1 -
+AVG = 60.30
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x2v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 57.77
+FPS = 59.41
+FPS = 54.58
+---------------------  FPS AVG  ------ simd =  256x2v2 -
+AVG = 56.19
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 59.05
+FPS = 46.07
+FPS = 52.94
+FPS = 43.22
+FPS = 47.70
+FPS = 52.84
+FPS = 44.75
+FPS = 48.45
+FPS = 40.94
+FPS = 47.24
+FPS = 56.64
+FPS = 55.67
+FPS = 47.06
+FPS = 52.53
+FPS = 55.45
+FPS = 50.00
+FPS = 47.62
+FPS = 47.15
+FPS = 45.54
+FPS = 46.60
+FPS = 47.86
+FPS = 36.30
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 48.56
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 29.47
+FPS = 32.44
+FPS = 26.72
+FPS = 31.50
+FPS = 20.00
+FPS = 32.20
+FPS = 19.05
+FPS = 30.19
+FPS = 27.29
+FPS = 30.95
+FPS = 29.13
+FPS = 32.69
+FPS = 27.13
+FPS = 26.00
+FPS = 24.00
+FPS = 30.00
+FPS = 18.45
+FPS = 27.78
+FPS = 18.52
+FPS = 25.79
+FPS = 31.25
+FPS = 31.81
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 27.12
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 17.01
+FPS = 16.13
+FPS = 16.82
+FPS = 11.18
+FPS = 16.70
+FPS = 13.92
+FPS = 15.09
+FPS = 16.73
+FPS = 16.25
+FPS = 13.67
+FPS = 15.78
+FPS = 13.83
+FPS = 13.38
+FPS = 13.67
+FPS = 14.79
+FPS = 10.87
+FPS = 13.38
+FPS = 17.18
+FPS = 14.00
+FPS = 13.21
+FPS = 14.04
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 14.68
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v2, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 52.94
+FPS = 50.68
+FPS = 53.90
+---------------------  FPS AVG  ------ simd =  256x1v2 -
+AVG = 52.56
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 1 (off)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 58.00
+FPS = 56.42
+FPS = 55.77
+FPS = 45.98
+FPS = 47.34
+FPS = 45.71
+FPS = 47.81
+FPS = 41.10
+FPS = 39.68
+FPS = 40.15
+FPS = 45.10
+FPS = 45.82
+FPS = 55.12
+FPS = 41.58
+FPS = 45.10
+FPS = 45.38
+FPS = 52.84
+FPS = 42.39
+FPS = 38.54
+FPS = 50.72
+FPS = 44.36
+FPS = 47.15
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 46.93
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 2 (spp)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 29.82
+FPS = 29.64
+FPS = 29.41
+FPS = 22.77
+FPS = 24.12
+FPS = 23.95
+FPS = 29.07
+FPS = 18.83
+FPS = 24.00
+FPS = 28.46
+FPS = 26.00
+FPS = 22.68
+FPS = 30.48
+FPS = 23.03
+FPS = 24.88
+FPS = 22.90
+FPS = 29.59
+FPS = 30.48
+FPS = 29.96
+FPS = 26.72
+FPS = 27.72
+FPS = 28.74
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 26.47
+------------------  TARGET CONFIG  ---------------------
+SIMD size/type =  256x1v1, tile_W = 2xW, FSAA = 4 (spp)
+Framebuffer X-row =   800, ptr = 0000000043490080
+Framebuffer X-res =   800, Y-res =  480, l 0, h 0     
+Window-rect X-res =   800, Y-res =  480, u 0, o 0
+Threads/affinity =   16/1, reserved = 0, d 2, c 1
+---------------------  FPS LOG  ------ ptr/fp = 64_64 --
+FPS = 15.56
+FPS = 16.98
+FPS = 14.34
+FPS = 15.36
+FPS = 11.48
+FPS = 13.62
+FPS = 15.96
+FPS = 14.84
+FPS = 13.62
+FPS = 15.24
+FPS = 13.86
+FPS = 13.49
+FPS = 11.43
+FPS = 15.97
+FPS = 16.64
+FPS = 15.44
+FPS = 13.67
+FPS = 15.72
+FPS = 15.41
+FPS = 15.94
+FPS = 11.07
+FPS = 13.73
+---------------------  FPS AVG  ------ simd =  256x1v1 -
+AVG = 14.50
