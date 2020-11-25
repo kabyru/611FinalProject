@@ -1,14 +1,8 @@
-import win32.win32gui
-import win32com.client
-import keystrokeHandler
+#This program is a rewrite of MWTextMove256, since win32API does not apply to Linux
+# and cannot be used.
+
 import pyautogui
 import time
-import array as arr
-
-commandWindowID = win32.win32gui.GetForegroundWindow()
-print("The HWND for the command window is " + str(commandWindowID))
-gameWindowID = win32.win32gui.FindWindow(None,"QuadRay engine demo, (C) 2013-2020 VectorChief")
-print("The HWND for the window is " + str(gameWindowID))
 
 #Now, begin automated control of the QuadRay Demo
 
@@ -50,57 +44,58 @@ for scene in scenes:
                     if (stype == 4 and nsimd != 128):
                         print("Invalid case, nsimd must be 128 for stype to be 4. Skipping...")
                         print("Changing AA...")
-                        #Increase AA prematurely...
-                        shell = win32com.client.Dispatch("WScript.Shell")
-                        shell.SendKeys('%')
-                        win32.win32gui.SetForegroundWindow(gameWindowID)
-                        keystrokeHandler.F2Key()
+                        #Increase AA prematurely... Press the F2 key
+                        print("F2 Key has been pressed!")
+                        pyautogui.keyDown('f2')
                         time.sleep(0.5)
-                        win32.win32gui.SetForegroundWindow(commandWindowID)
+                        pyautogui.keyUp('f2')
+                        time.sleep(0.5)
+                        print("F2 Key has been released!")
                         
                         continue
+
                     if (nsimd == 128 and stype != 4):
                         print("Invalid case, stype must be 4 for nsimd to be 128. Skipping...")
                         print("Changing AA...")
-                        #Increase AA prematurely...
-                        shell = win32com.client.Dispatch("WScript.Shell")
-                        shell.SendKeys('%')
-                        win32.win32gui.SetForegroundWindow(gameWindowID)
-                        keystrokeHandler.F2Key()
+                        #Increase AA prematurely... Press the F2 key
+                        print("F2 Key has been pressed!")
+                        pyautogui.keyDown('f2')
                         time.sleep(0.5)
-                        win32.win32gui.SetForegroundWindow(commandWindowID)
+                        pyautogui.keyUp('f2')
+                        time.sleep(0.5)
+                        print("F2 Key has been released!")
 
                         continue
                     
                     print("Waiting for 10 seconds for the trial to finish...")
                     time.sleep(10) #Wait for 10 seconds to let the trial to run...
 
-                    #Increase AA...
+                    #Increase AA... Press the F2 key
                     print("Changing AA...")
-                    shell = win32com.client.Dispatch("WScript.Shell")
-                    shell.SendKeys('%')
-                    win32.win32gui.SetForegroundWindow(gameWindowID)
-                    keystrokeHandler.F2Key()
+                    print("F2 Key has been pressed!")
+                    pyautogui.keyDown('f2')
                     time.sleep(0.5)
-                    win32.win32gui.SetForegroundWindow(commandWindowID)
+                    pyautogui.keyUp('f2')
+                    time.sleep(0.5)
+                    print("F2 Key has been released!")
                 
-                #Increase s_type...
+                #Increase s_type... press the F7 key
                 print("Changing s_type...")
-                shell = win32com.client.Dispatch("WScript.Shell")
-                shell.SendKeys('%')
-                win32.win32gui.SetForegroundWindow(gameWindowID)
-                keystrokeHandler.F7Key()
+                print("F7 Key has been pressed!")
+                pyautogui.keyDown('f7')
                 time.sleep(0.5)
-                win32.win32gui.SetForegroundWindow(commandWindowID)
+                pyautogui.keyUp('f7')
+                time.sleep(0.5)
+                print("F7 Key has been released!")
 
-            #Increase k_size
+            #Increase k_size... Press the F6 key
             print("Changing k_size...")
-            shell = win32com.client.Dispatch("WScript.Shell")
-            shell.SendKeys('%')
-            win32.win32gui.SetForegroundWindow(gameWindowID)
-            keystrokeHandler.F6Key()
+            print("F6 Key has been pressed!")
+            pyautogui.keyDown('f6')
             time.sleep(0.5)
-            win32.win32gui.SetForegroundWindow(commandWindowID)
+            pyautogui.keyUp('f6')
+            time.sleep(0.5)
+            print("F6 Key has been released!")
 
         # #Increase n_simd
         # print("Changing n_simd...")
@@ -111,11 +106,11 @@ for scene in scenes:
         # time.sleep(0.5)
         # win32.win32gui.SetForegroundWindow(commandWindowID)
 
-    #Change the scene...
+    #Change the scene... Press the F11 key
     print("Changing scene...")
-    shell = win32com.client.Dispatch("WScript.Shell")
-    shell.SendKeys('%')
-    win32.win32gui.SetForegroundWindow(gameWindowID)
-    keystrokeHandler.F11Key()
+    print("F11 Key has been pressed!")
+    pyautogui.keyDown('f11')
     time.sleep(0.5)
-    win32.win32gui.SetForegroundWindow(commandWindowID)
+    pyautogui.keyUp('f11')
+    time.sleep(0.5)
+    print("F11 Key has been released!")
