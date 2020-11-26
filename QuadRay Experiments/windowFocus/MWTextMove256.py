@@ -119,3 +119,12 @@ for scene in scenes:
     keystrokeHandler.F11Key()
     time.sleep(0.5)
     win32.win32gui.SetForegroundWindow(commandWindowID)
+
+#Finally, kill the program
+print("Ending RooT Demo and saving data...")
+shell = win32com.client.Dispatch("WScript.Shell")
+shell.SendKeys('%')
+win32.win32gui.SetForegroundWindow(gameWindowID)
+keystrokeHandler.escKey()
+time.sleep(0.5)
+win32.win32gui.SetForegroundWindow(commandWindowID)

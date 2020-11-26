@@ -31,6 +31,7 @@ VK_F6 = 0x75
 VK_F7 = 0x76
 VK_F8 = 0x77
 VK_F11 = 0x7A
+VK_ESCAPE = 0x1B
 
 # C struct definitions
 
@@ -139,6 +140,14 @@ def F11Key():
     ReleaseKey(VK_F11)
     time.sleep(0.5)
     print("F11 Key Released!")
+
+def escKey():
+    print("Escape Key Pressed!")
+    PressKey(VK_ESCAPE)
+    time.sleep(0.5)
+    ReleaseKey(VK_ESCAPE)
+    time.sleep(0.5)
+    print("Escape Key Released!")
 
 def AltTab():
     """Press Alt+Tab and hold Alt key for 2 seconds

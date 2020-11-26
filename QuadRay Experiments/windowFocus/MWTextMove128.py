@@ -46,6 +46,7 @@ for scene in scenes:
     for nsimd in n_simd:
         for ksize in k_size:
             for stype in s_type:
+                goneOnce = False
                 for AA in anti_aliasing:
                     
                     print("Now entering trial:")
@@ -57,8 +58,8 @@ for scene in scenes:
 
                     #First, check if s_type = 4, because if so, it should only be used when n_simd = 128
                     #Otherwise, if n_simd = 128, then s_type can ONLY be 4
-                    if (stype == 4 and nsimd != 128):
-                        print("Invalid case, nsimd must be 128 for stype to be 4. Skipping...")
+                    if (ksize == 1 and goneOnce == True):
+                        print("Invalid case, no other instances of AA exist for 128 beyond 1...")
                         print("Changing AA...")
                         #Increase AA prematurely...
                         shell = win32com.client.Dispatch("WScript.Shell")
@@ -68,18 +69,6 @@ for scene in scenes:
                         time.sleep(0.5)
                         win32.win32gui.SetForegroundWindow(commandWindowID)
                         
-                        continue
-                    if (nsimd == 128 and stype != 4):
-                        print("Invalid case, stype must be 4 for nsimd to be 128. Skipping...")
-                        print("Changing AA...")
-                        #Increase AA prematurely...
-                        shell = win32com.client.Dispatch("WScript.Shell")
-                        shell.SendKeys('%')
-                        win32.win32gui.SetForegroundWindow(gameWindowID)
-                        keystrokeHandler.F2Key()
-                        time.sleep(0.5)
-                        win32.win32gui.SetForegroundWindow(commandWindowID)
-
                         continue
                     
                     print("Waiting for 10 seconds for the trial to finish...")
@@ -93,6 +82,7 @@ for scene in scenes:
                     keystrokeHandler.F2Key()
                     time.sleep(0.5)
                     win32.win32gui.SetForegroundWindow(commandWindowID)
+                    goneOnce = True
                 
                 #Increase s_type...
                 # print("Changing s_type...")
@@ -130,12 +120,11 @@ for scene in scenes:
     time.sleep(0.5)
     win32.win32gui.SetForegroundWindow(commandWindowID)
 
-
-
-
-
-
-#This is the default configuration of the file.
-print("Running the RooT Demo for n_simd = 256, k_size = x2, s_type = v2...")
-time.sleep(10) #Let the Demo run this default config for 10 seconds...
-#Now, swap this 
+#Finally, kill the program
+print("Ending RooT Demo and saving data...")
+shell = win32com.client.Dispatch("WScript.Shell")
+shell.SendKeys('%')
+win32.win32gui.SetForegroundWindow(gameWindowID)
+keystrokeHandler.escKey()
+time.sleep(0.5)
+win32.win32gui.SetForegroundWindow(commandWindowID)
