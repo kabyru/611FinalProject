@@ -25,86 +25,55 @@ for scene in scenes:
 
     #If we're on the second scene, we will need to reset back to 256x2v2 before proceeeding since its default is 128x
     #if (scene == 2):
+    for AA in anti_aliasing:
 
+        print("Now entering trial:")
+        print("Scene: " + str(scene))
+        print("n_simd: " + str(nsimd))
+        print("k_size: " + str(ksize))
+        print("s_type: " + str(stype))
+        print("Anti-Aliasing: " + str(AA))
 
-    for nsimd in n_simd:
-        for ksize in k_size:
-            for stype in s_type:
-                for AA in anti_aliasing:
-                    
-                    print("Now entering trial:")
-                    print("Scene: " + str(scene))
-                    print("n_simd: " + str(nsimd))
-                    print("k_size: " + str(ksize))
-                    print("s_type: " + str(stype))
-                    print("Anti-Aliasing: " + str(AA))
-
-                    #First, check if s_type = 4, because if so, it should only be used when n_simd = 128
-                    #Otherwise, if n_simd = 128, then s_type can ONLY be 4
-                    if (stype == 4 and nsimd != 128):
-                        print("Invalid case, nsimd must be 128 for stype to be 4. Skipping...")
-                        print("Changing AA...")
-                        #Increase AA prematurely... Press the F2 key
-                        print("F2 Key has been pressed!")
-                        pyautogui.keyDown('f2')
-                        time.sleep(0.5)
-                        pyautogui.keyUp('f2')
-                        time.sleep(0.5)
-                        print("F2 Key has been released!")
-                        
-                        continue
-
-                    if (nsimd == 128 and stype != 4):
-                        print("Invalid case, stype must be 4 for nsimd to be 128. Skipping...")
-                        print("Changing AA...")
-                        #Increase AA prematurely... Press the F2 key
-                        print("F2 Key has been pressed!")
-                        pyautogui.keyDown('f2')
-                        time.sleep(0.5)
-                        pyautogui.keyUp('f2')
-                        time.sleep(0.5)
-                        print("F2 Key has been released!")
-
-                        continue
-                    
-                    print("Waiting for 10 seconds for the trial to finish...")
-                    time.sleep(10) #Wait for 10 seconds to let the trial to run...
-
-                    #Increase AA... Press the F2 key
-                    print("Changing AA...")
-                    print("F2 Key has been pressed!")
-                    pyautogui.keyDown('f2')
-                    time.sleep(0.5)
-                    pyautogui.keyUp('f2')
-                    time.sleep(0.5)
-                    print("F2 Key has been released!")
-                
-                #Increase s_type... press the F7 key
-                print("Changing s_type...")
-                print("F7 Key has been pressed!")
-                pyautogui.keyDown('f7')
-                time.sleep(0.5)
-                pyautogui.keyUp('f7')
-                time.sleep(0.5)
-                print("F7 Key has been released!")
-
-            #Increase k_size... Press the F6 key
-            print("Changing k_size...")
-            print("F6 Key has been pressed!")
-            pyautogui.keyDown('f6')
+        #First, check if s_type = 4, because if so, it should only be used when n_simd = 128
+        #Otherwise, if n_simd = 128, then s_type can ONLY be 4
+        if (stype == 4 and nsimd != 128):
+            print("Invalid case, nsimd must be 128 for stype to be 4. Skipping...")
+            print("Changing AA...")
+            #Increase AA prematurely... Press the F2 key
+            print("F2 Key has been pressed!")
+            pyautogui.keyDown('f2')
             time.sleep(0.5)
-            pyautogui.keyUp('f6')
+            pyautogui.keyUp('f2')
             time.sleep(0.5)
-            print("F6 Key has been released!")
+            print("F2 Key has been released!")
 
-        # #Increase n_simd
-        # print("Changing n_simd...")
-        # shell = win32com.client.Dispatch("WScript.Shell")
-        # shell.SendKeys('%')
-        # win32.win32gui.SetForegroundWindow(gameWindowID)
-        # keystrokeHandler.F8Key()
-        # time.sleep(0.5)
-        # win32.win32gui.SetForegroundWindow(commandWindowID)
+            continue
+
+        if (nsimd == 128 and stype != 4):
+            print("Invalid case, stype must be 4 for nsimd to be 128. Skipping...")
+            print("Changing AA...")
+            #Increase AA prematurely... Press the F2 key
+            print("F2 Key has been pressed!")
+            pyautogui.keyDown('f2')
+            time.sleep(0.5)
+            pyautogui.keyUp('f2')
+            time.sleep(0.5)
+            print("F2 Key has been released!")
+
+            continue
+
+        print("Waiting for 10 seconds for the trial to finish...")
+        # Wait for 10 seconds to let the trial to run...
+        time.sleep(10)
+
+        #Increase AA... Press the F2 key
+        print("Changing AA...")
+        print("F2 Key has been pressed!")
+        pyautogui.keyDown('f2')
+        time.sleep(0.5)
+        pyautogui.keyUp('f2')
+        time.sleep(0.5)
+        print("F2 Key has been released!")
 
     #Change the scene... Press the F11 key
     print("Changing scene...")
